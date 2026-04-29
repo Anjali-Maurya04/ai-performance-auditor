@@ -21,18 +21,6 @@ This project is an AI-powered performance audit assistant that analyzes website 
 
 ---
 
-##  Project Structure
-ai_audit/
-├── main.py        # Main pipeline
-├── parser.py      # Data normalization
-├── utils.py       # Chunking logic
-├── assistant.py   # Optional helper logic
-├── prompts.py     # Prompt templates
-├── storage.py     # Data storage (if used)
-├── report.json    # Sample input
-├── history.json   # Logs/history
-│── .env # API keys
-
 ##  Setup Instructions
 
 ### 1. Clone / Extract Project
