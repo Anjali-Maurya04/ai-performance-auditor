@@ -1,0 +1,164 @@
+[
+  [
+    {
+      "title": "Avoid multiple page redirects",
+      "why": "Reduce redirects to improve page load time",
+      "impact": "High",
+      "complexity": "Low",
+      "notes": "Use server-side redirects or remove unnecessary redirects",
+      "priority_score": 5
+    },
+    {
+      "title": "Add meta description",
+      "why": "Improve search engine results and user experience",
+      "impact": "High",
+      "complexity": "Low",
+      "notes": "Add a meta description tag to the HTML head",
+      "priority_score": 5
+    },
+    {
+      "title": "Improve font display",
+      "why": "Set `font-display` to `swap` or `optional` to ensure text visibility",
+      "impact": "High",
+      "complexity": "Low",
+      "notes": "Use `font-display: swap` and consider font metric overrides",
+      "priority_score": 5
+    },
+    {
+      "title": "Optimize Time to Interactive",
+      "why": "Reduce JavaScript execution time and optimize resource loading",
+      "impact": "High",
+      "complexity": "Medium",
+      "notes": "Use code splitting, lazy loading, and optimize resource loading",
+      "priority_score": 4
+    },
+    {
+      "title": "Serve images with high resolution",
+      "why": "Improve image clarity and reduce pixel density",
+      "impact": "High",
+      "complexity": "Medium",
+      "notes": "Use responsive images and set image dimensions",
+      "priority_score": 4
+    },
+    {
+      "title": "Increase touch target size and spacing",
+      "why": "Improve accessibility for users with motor impairments",
+      "impact": "High",
+      "complexity": "Medium",
+      "notes": "Adjust CSS to increase touch target size and spacing",
+      "priority_score": 4
+    },
+    {
+      "title": "Allow search engines to crawl pages",
+      "why": "Implement crawler directives",
+      "impact": "High",
+      "complexity": "Medium",
+      "notes": "Use meta tags or HTTP headers to allow crawling",
+      "priority_score": 4
+    },
+    {
+      "title": "Enable back/forward cache restoration",
+      "why": "Use the bfcache to speed up return navigations",
+      "impact": "High",
+      "complexity": "Medium",
+      "notes": "Avoid using `no-store` or `no-cache` headers",
+      "priority_score": 4
+    },
+    {
+      "title": "Optimize image size",
+      "why": "Reducing image download time improves perceived load time and LCP",
+      "impact": "High",
+      "complexity": "Medium",
+      "notes": "Use image compression tools and optimize image formats",
+      "priority_score": 4
+    },
+    {
+      "title": "Make LCP image discoverable",
+      "why": "Avoid lazy-loading and make LCP image discoverable from HTML immediately",
+      "impact": "High",
+      "complexity": "Medium",
+      "notes": "Use inlining or deferring for LCP image",
+      "priority_score": 4
+    },
+    {
+      "title": "Improve Largest Contentful Paint",
+      "why": "Reduce the time it takes for the largest text or image to be painted",
+      "impact": "High",
+      "complexity": "High",
+      "notes": "Optimize server response time, leverage content delivery networks (CDNs), and minimize DOM mutations",
+      "priority_score": 3
+    },
+    {
+      "title": "Set explicit width and height on image elements",
+      "why": "Reduce layout shifts and improve CLS",
+      "impact": "Medium",
+      "complexity": "Low",
+      "notes": "Add width and height attributes to image elements",
+      "priority_score": 3
+    },
+    {
+      "title": "Optimize document request latency",
+      "why": "Avoid redirects, ensure fast server response, and enable text compression",
+      "impact": "High",
+      "complexity": "High",
+      "notes": "Use a content delivery network (CDN) and enable HTTP/2",
+      "priority_score": 3
+    },
+    {
+      "title": "Reduce network dependency tree",
+      "why": "Avoid chaining critical requests by reducing resource download size or deferring unnecessary resources",
+      "impact": "High",
+      "complexity": "High",
+      "notes": "Use code splitting, lazy loading, or resource prioritization",
+      "priority_score": 3
+    },
+    {
+      "title": "Optimize First Contentful Paint",
+      "why": "Improve the time it takes for the first text or image to be painted",
+      "impact": "Medium",
+      "complexity": "Medium",
+      "notes": "Minimize HTTP requests, leverage browser caching, and optimize images",
+      "priority_score": 2
+    },
+    {
+      "title": "Enhance Speed Index",
+      "why": "Improve the time it takes for page contents to be visibly populated",
+      "impact": "Medium",
+      "complexity": "Medium",
+      "notes": "Minimize DOM mutations, leverage browser caching, and optimize images",
+      "priority_score": 2
+    },
+    {
+      "title": "Optimize CSS",
+      "why": "Reduce network activity and improve page load time",
+      "impact": "Medium",
+      "complexity": "Medium",
+      "notes": "Use tools to identify and remove unused CSS rules",
+      "priority_score": 2
+    },
+    {
+      "title": "Optimize JavaScript",
+      "why": "Reduce network activity and improve page load time",
+      "impact": "Medium",
+      "complexity": "Medium",
+      "notes": "Use tools to identify and remove unused JavaScript code",
+      "priority_score": 2
+    },
+    {
+      "title": "Deferring or inlining render-blocking requests",
+      "why": "Move network requests out of the critical path to improve LCP",
+      "impact": "Medium",
+      "complexity": "Medium",
+      "notes": "Use inlining, deferring, or code splitting for render-blocking requests",
+      "priority_score": 2
+    },
+    {
+      "title": "Reduce Max Potential First Input Delay",
+      "why": "Minimize the duration of the longest task",
+      "impact": "Low",
+      "complexity": "Low",
+      "notes": "Minimize JavaScript execution time, leverage browser caching, and optimize server response time",
+      "priority_score": 1
+    }
+  ]
+]
