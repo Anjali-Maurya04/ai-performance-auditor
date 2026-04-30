@@ -24,31 +24,35 @@ This project is an AI-powered performance audit assistant that analyzes website 
 ##  Setup Instructions
 
 ### 1. Clone / Extract Project
-git clone <your-repo-url>
+```bash
+git clone https://github.com/Anjali-Maurya04/ai-performance-auditor.git
 cd ai_audit
+```
 
+## Create Virtual Environment
 
-##  Create Virtual Environment
-
-- python3 -m venv venv
-- source venv/bin/activate   # Mac/Linux
-
+```bash
+python3 -m venv venv
+source venv/bin/activate   # Mac/Linux
 ##  Install Dependencies 
 
 - pip install -r requirements.txt
 
-
+```
 ##  Add Environment Variables
-
+```
 GROQ_API_KEY=your_api_key_here
+```
 
 ## How to run
 
+```
 from main import run_pipeline
 
 result = run_pipeline("report.json")
 
 print(result)
+```
 
 ## Pipeline Flow
 - Load audit report
