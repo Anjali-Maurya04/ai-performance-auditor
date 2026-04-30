@@ -1,4 +1,4 @@
-# SaaS Speed Optimization AI Agent
+# AI Audit assisstant
 
 This project is an AI-powered performance audit assistant that analyzes website performance reports and generates actionable optimization recommendations using LLMs.
 
@@ -16,7 +16,7 @@ This project is an AI-powered performance audit assistant that analyzes website 
 
 - Python
 - LangChain
-- Groq LLM (LLaMA 3.1)
+- Groq LLM 
 - dotenv (for environment variables)
 
 ---
@@ -24,8 +24,8 @@ This project is an AI-powered performance audit assistant that analyzes website 
 ##  Setup Instructions
 
 ### 1. Clone / Extract Project
-
-cd 07_Saas_SpeedOptimization/ai_audit
+git clone <your-repo-url>
+cd ai_audit
 
 
 ##  Create Virtual Environment
